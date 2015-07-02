@@ -1,6 +1,7 @@
 All vim files.
 
-Using vundle.
-
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+`git clone https://github.com/jokefun/vim-files ~/.vim`
+`ln -s ~/.vim/vimrc ~/.vimrc`
+`cd ~/.vim && git submodule init && git submodule update`
+open vim and `VundleInstall`
 
